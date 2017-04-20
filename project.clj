@@ -1,6 +1,7 @@
 (defproject elib "0.1.0-SNAPSHOT"
   :description "e-Library"
   :url "https://www.kanouivirach.com/"
+  :main elib.core
   :license {:name "MIT License"
             :url "https://opensource.org/licenses/MIT"}
   :dependencies

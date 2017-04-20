@@ -6,5 +6,4 @@
    :headers {"Content-Type" "text/html"}
    :body    "Hello World from Ring"})
 
-(defn boot []
-  (run-jetty #'handler {:port 8080}))
+(run-jetty #'handler {:port 8080})
